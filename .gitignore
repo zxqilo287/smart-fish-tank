@@ -17,3 +17,6 @@ config.local.py
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# 实验4压缩包内的原始视频（已压缩至 videos/）
+code/**/*.mp4
