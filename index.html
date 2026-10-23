@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>基于树莓派的物联网实验演示</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f7f8fa; color: #2c3e50; line-height: 1.7; }
+  .container { max-width: 860px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 26px; margin-bottom: 8px; color: #1a2530; }
+  .sub { color: #7a8ba0; font-size: 14px; margin-bottom: 32px; }
+  .exp { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 24px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+  .exp h2 { font-size: 18px; margin-bottom: 4px; }
+  .exp .meta { color: #7a8ba0; font-size: 13px; margin-bottom: 14px; }
+  video { width: 100%; max-width: 480px; border-radius: 8px; background: #000; display: block; margin: 0 auto; }
+  .footer { margin-top: 40px; text-align: center; color: #9aa8b8; font-size: 12px; }
+  a { color: #2c6fbb; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>基于树莓派的物联网实验演示</h1>
+  <p class="sub">西南石油大学 · 物联网工程 · 《物联网信息感知技术》课程项目演示视频</p>
+
+  <div class="exp">
+    <h2>实验一 · 开发环境搭建与 LED 灯控制</h2>
+    <p class="meta">树莓派 GPIO 驱动 LED 周期闪烁（400ms 亮 / 600ms 灭）与蜂鸣器控制</p>
+    <video controls preload="metadata" poster="">
+      <source src="videos/实验1_演示视频.mp4" type="video/mp4">
+      您的浏览器不支持视频播放，请下载后查看。
+    </video>
+  </div>
+
+  <div class="exp">
+    <h2>实验二 · 物联网传感器感知</h2>
+    <p class="meta">I2C 读取 BH1750 光照强度、SPI + MCP3008 读取液面传感器，每 3 秒采集并打印</p>
+    <video controls preload="metadata">
+      <source src="videos/实验2_演示视频.mp4" type="video/mp4">
+      您的浏览器不支持视频播放，请下载后查看。
+    </video>
+  </div>
+
+  <div class="exp">
+    <h2>实验三 · 物联网外部设备驱动</h2>
+    <p class="meta">蜂鸣器、LED（PWM 十级亮度调节）、步进电机（正反转与 90° 角度控制）驱动</p>
+    <video controls preload="metadata">
+      <source src="videos/实验3_演示视频.mp4" type="video/mp4">
+      您的浏览器不支持视频播放，请下载后查看。
+    </video>
+  </div>
+
+  <p class="footer">更多项目信息与源码见 <a href="https://github.com/zxqilo287/smart-fish-tank" target="_blank">GitHub 仓库</a></p>
+</div>
+</body>
+</html>

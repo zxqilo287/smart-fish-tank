@@ -1,0 +1,13 @@
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
+
+GPIO_LED = 7
+GPIO_BUZZER = 11
+
+GPIO_PHASE_A = 32
+GPIO_PHASE_B = 36
+GPIO_PHASE_C = 38
+GPIO_PHASE_D = 40
+
+I2C_ADDR = 0x23
